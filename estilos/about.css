@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+.menu-header{
+    cursor: pointer;
+}
+body{
+    background: #f6f8fc;
+    font-family: "Kumbh Sans";
+}
+main{
+    display: grid;
+    place-items: center;
+}
+.logo-header{
+    width: 192px;
+    height: 61px;
+    margin: 43px 0 40px 53px;
+}
+.icon-poke{
+    width: 470px;
+    height: 483px;
+    margin-left: 78px;
+}
+.numero{
+    font-size: 15px;
+    font-weight: 700;
+}
+.nome{
+    color: #000;
+    font-family: "Kumbh Sans";
+    font-size: 40px;
+    font-weight: 700;
+}
+.nome-pokemon{
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    margin-top: 5px;
+}
+.tipos{
+    display: flex;
+    gap: 10px;
+}
+.tipo{
+    border-radius: 50px;
+    background: #BFC66B;
+    padding: 6px 12px;
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 19px;
+}
+p{
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-weight: 400;
+    width: 301px;
+}
+.altura-largura{
+    display: flex;
+    gap: 22px;
+    margin-bottom: 35px;
+}
+.height,.width{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F6F8FC;
+    padding: 10px 12px;
+    border-radius: 5px;
+    margin-top: 30px;
+    width: 190px;
+}
+.h,.w{
+    width:55px;
+    height: 21px;
+    font-family: "Kumbh Sans";
+    font-size: 17px;
+    font-weight: 700;
+}
+.h-m,.w-m{
+    font-family: "Kumbh Sans";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.hp{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background: #DF2140;
+    width: 190px;
+    height: 45px;
+    padding: 15px;
+    font-size: 17px;
+    align-items: center;
+}
+.atk{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background: #FF994D;
+    width: 190px;
+    height: 45px;
+    padding: 15px;
+    font-size: 17px;
+    align-items: center;
+    margin-right: 73px;
+}
+.spa{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background: #85DDFF;
+    width: 190px;
+    height: 45px;
+    padding: 15px;
+    font-size: 17px;
+    align-items: center;
+}
+.def{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background: #EECD3D;
+    width: 190px;
+    height: 45px;
+    padding: 15px;
+    font-size: 17px;
+    align-items: center;
+}
+.spd{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background: #96DA83;
+    width: 190px;
+    height: 45px;
+    padding: 15px;
+    font-size: 17px;
+    align-items: center;
+}
+.SPD{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background: #FB94A8;
+    width: 190px;
+    height: 45px;
+    padding: 15px;
+    font-size: 17px;
+    align-items: center;
+}
+.s-1{
+    display: flex;
+    gap: 22px;
+    margin-bottom: 11px;
+}
+.stats{
+    margin-bottom: 10px;
+}
+.abilities{
+    margin-top: 24px;
+}
+.abi{
+    display: flex;
+    gap: 22px;
+    margin-bottom: 72px;
+}
+.abi-1{
+    background-color: #F6F8FC;
+    padding: 10px 12px;
+    border-radius: 5px;
+    margin-top: 24px;
+}
+.conteudo-pokemon{
+    display: flex;
+    flex-direction: column;
+}
+.container-pokemon{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    background: #FFF;
+    padding: 75px;
+    box-shadow: 4px 4px 21.5px 6px rgba(0, 0, 0, 0.25);
+    gap: 122px;
+    width: 1150px;
+    height: 730px;
+    margin-bottom: 67px;
+}
+.evolution{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+}

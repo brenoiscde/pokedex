@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-items: center;
+    background: #F6F8FC;
+}
+
+.logo-pokedex{
+    margin-top: 136px;
+}
+.tipo-numero{
+    display: flex;
+    justify-content: space-between;
+}
+.conteudo-pokemon{
+    display: flex;
+    align-items: center;
+}
+p{
+    width: 190px;
+    font-family: "Kumbh Sans";
+}
+.pokemon{
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    padding: 18px;
+    border-radius: 20px;
+}
+.tipo{
+    border-radius: 50px;
+    background: #BFC66B;
+    padding: 5px 12.5px 5px 12.5px;
+    font-family: Inter;
+    font-weight: 500;
+}
+.nome-pokemon{
+    color: #363131;
+    font-family: "Kumbh Sans";
+    font-size: 27px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 15px 0 4px 0;
+}
+.numero{
+    font-family: "Kumbh Sans";
+    font-weight: 700;
+    color: #363131;
+}
+button{
+    color: #363131;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 6px 12px 6px 12px;
+    border-radius: 50px;
+    background: #BFC66B;
+    border-style: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 12px;
+}
+.pokedex{
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+    max-width: 70%;
+    flex-wrap: wrap;
+    margin-top: 34px;
+}
+input{
+    width: 1007px;
+    height: 73px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 18.5px 2px rgba(0, 0, 0, 0.25);
+    border-style: none;
+    padding: 24px 737px 24px 24px;
+}
+.imagem-search{
+    padding: 20px;
+    background: #FF5350;
+    border-radius: 10px;
+}
+.pesquisar{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    gap: 12px;
+}
